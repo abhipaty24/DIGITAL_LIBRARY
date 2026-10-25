@@ -1,0 +1,4 @@
+ID	Name	Age	Marks
+101	Ram	20	85
+102	Sita	21	90
+103	Ravi	19	78
