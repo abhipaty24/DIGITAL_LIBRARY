@@ -1,0 +1,65 @@
+<svg width="800" height="900" viewBox="0 0 800 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="400" y1="0" x2="400" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7BAE4F"/>
+      <stop offset="0.45" stop-color="#4D7F39"/>
+      <stop offset="1" stop-color="#2B4B2E"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="290" y1="500" x2="520" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B413F"/>
+      <stop offset="0.5" stop-color="#4B202E"/>
+      <stop offset="1" stop-color="#1C1618"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="400" y1="250" x2="400" y2="580" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EDC7A4"/>
+      <stop offset="1" stop-color="#D9A57E"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="900" fill="url(#bg)"/>
+
+  <g opacity="0.8">
+    <circle cx="115" cy="110" r="120" fill="#7BAE4F"/>
+    <circle cx="685" cy="130" r="130" fill="#6A9C46"/>
+    <circle cx="430" cy="90" r="160" fill="#7AB24E"/>
+    <circle cx="220" cy="780" r="210" fill="#426C30"/>
+    <circle cx="560" cy="760" r="210" fill="#2E5B2B"/>
+  </g>
+
+  <g>
+    <ellipse cx="404" cy="810" rx="230" ry="52" fill="#1C2C1F" opacity="0.15"/>
+
+    <path d="M285 680L520 680L560 850H245L285 680Z" fill="url(#shirt)"/>
+    <path d="M328 680H486L515 530H298L328 680Z" fill="#F1F1F1"/>
+    <path d="M322 680H493L463 840H354L322 680Z" fill="#E9D3BF" opacity="0.8"/>
+    <path d="M255 700L308 684L300 850H248L255 700Z" fill="#2F1E20"/>
+    <path d="M550 700L497 684L505 850H557L550 700Z" fill="#2F1E20"/>
+
+    <path d="M318 460C318 404 359 360 408 360C459 360 500 404 500 460V545H318V460Z" fill="url(#skin)"/>
+    <path d="M331 365C360 322 412 300 467 314C517 326 553 367 560 423C542 414 532 406 520 396C491 372 458 360 419 358C386 356 350 364 331 365Z" fill="#1A1A1A"/>
+    <path d="M360 330C389 297 436 280 486 290C521 297 553 321 572 357C553 339 523 324 491 315C454 304 417 307 380 318C370 321 365 325 360 330Z" fill="#2B2B2B"/>
+    <path d="M344 430C360 398 387 380 418 380C457 380 490 404 504 445C482 433 462 428 430 427C396 427 365 435 344 430Z" fill="#DAA77B" opacity="0.8"/>
+
+    <path d="M361 413C364 379 393 351 426 351C463 351 491 382 494 415C494 449 471 480 436 491C404 500 368 488 351 463C345 454 344 428 361 413Z" fill="url(#skin)"/>
+    <path d="M363 403C375 388 394 380 417 380C447 380 472 392 485 416C470 422 456 430 443 441C430 453 419 468 410 485C387 469 369 444 363 403Z" fill="#E7B58E" opacity="0.8"/>
+
+    <path d="M350 405C359 370 390 344 425 343C467 343 499 374 503 418C491 399 475 387 452 378C435 371 413 367 392 369C373 371 359 379 350 405Z" fill="#1A1A1A"/>
+
+    <circle cx="385" cy="425" r="8" fill="#1E1E1E"/>
+    <circle cx="454" cy="425" r="8" fill="#1E1E1E"/>
+    <path d="M390 470C405 480 421 480 436 469" stroke="#7D483C" stroke-width="8" stroke-linecap="round"/>
+    <path d="M410 457C420 462 431 462 441 457" stroke="#7D483C" stroke-width="6" stroke-linecap="round"/>
+
+    <path d="M370 493C385 518 399 538 418 548C436 557 456 555 475 541C490 529 500 513 508 497C518 521 517 545 503 565C479 603 443 627 406 623C366 618 329 591 317 551C321 531 337 512 370 493Z" fill="url(#skin)"/>
+
+    <path d="M323 610H486L474 680H335L323 610Z" fill="url(#shirt)"/>
+    <path d="M335 615L302 629L280 705L322 692L335 615Z" fill="#551B2A"/>
+    <path d="M474 615L507 629L529 705L487 692L474 615Z" fill="#551B2A"/>
+    <path d="M333 644L372 631L396 676L355 691L333 644Z" fill="#7B1F2E" opacity="0.8"/>
+    <path d="M476 644L437 631L413 676L454 691L476 644Z" fill="#7B1F2E" opacity="0.8"/>
+
+    <path d="M337 538L294 610H232L242 520C246 489 264 464 293 446C307 437 324 431 339 431C327 470 333 513 337 538Z" fill="#221719"/>
+    <path d="M480 538L523 610H585L575 520C571 489 553 464 524 446C510 437 493 431 478 431C490 470 484 513 480 538Z" fill="#221719"/>
+    <path d="M332 515C353 504 380 496 405 497C434 497 461 507 484 515C454 517 430 537 403 541C381 545 340 535 332 515Z" fill="#E2B78B" opacity="0.6"/>
+  </g>
+</svg>

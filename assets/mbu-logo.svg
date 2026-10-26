@@ -1,0 +1,40 @@
+<svg width="760" height="420" viewBox="0 0 760 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldGrad" x1="70" y1="20" x2="260" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F85D5D"/>
+      <stop offset="1" stop-color="#B40F1F"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFDD6B"/>
+      <stop offset="0.5" stop-color="#F6C227"/>
+      <stop offset="1" stop-color="#DE9A00"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(20 25)">
+    <path d="M165 0L285 33V150C285 222 242 278 165 330C88 278 45 222 45 150V33L165 0Z" fill="url(#shieldGrad)"/>
+    <path d="M165 26L253 50V147C253 200 219 241 165 278C111 241 77 200 77 147V50L165 26Z" fill="#D91E2B" opacity="0.5"/>
+
+    <g transform="translate(105 42)">
+      <path d="M55 10C40 22 19 39 14 66C9 93 15 118 12 137C9 154 2 171 0 185C19 176 32 162 39 144C46 126 50 108 56 95C66 76 80 69 89 61C101 51 108 42 110 32C112 22 108 11 99 6C86 0 71 1 55 10Z" fill="url(#goldGrad)"/>
+      <path d="M82 8C73 19 60 34 53 52C46 70 47 88 52 107C58 127 69 145 83 155C88 125 97 99 109 80C119 63 132 51 145 45C133 31 117 20 101 13C95 10 88 8 82 8Z" fill="url(#goldGrad)"/>
+      <path d="M73 56L107 65L96 96L68 89L73 56Z" fill="#C88B00" opacity="0.7"/>
+      <path d="M107 64C138 58 168 59 184 76C171 75 160 82 152 98C146 111 146 126 155 141C165 157 180 170 196 179C170 188 139 190 111 185C93 181 78 172 64 161C63 141 69 124 81 108C93 90 100 75 107 64Z" fill="url(#goldGrad)"/>
+      <path d="M116 80C118 98 123 111 138 130C149 143 163 152 177 160C162 170 145 175 126 176C104 177 84 170 69 156C78 135 89 120 100 105C106 96 111 86 116 80Z" fill="#E7A400" opacity="0.85"/>
+      <path d="M88 106C90 117 96 129 107 138C117 146 130 151 144 155C133 161 120 164 107 164C90 164 75 158 63 149C70 134 78 119 88 106Z" fill="#F7D969"/>
+      <path d="M56 120C49 129 44 138 42 149C39 163 42 176 50 188C57 177 66 168 75 162C81 157 88 152 94 149C86 142 72 135 56 120Z" fill="url(#goldGrad)"/>
+      <path d="M143 40C150 44 155 50 158 58C161 67 161 76 158 84C171 74 181 63 188 48C195 35 196 22 191 13C182 18 171 26 161 34C155 39 149 42 143 40Z" fill="#F2C94C"/>
+    </g>
+
+    <g opacity="0.9">
+      <path d="M90 178C114 195 137 195 155 182C171 170 184 168 206 175C198 189 188 204 177 218C168 230 159 239 150 247C117 228 95 206 90 178Z" fill="url(#goldGrad)"/>
+      <path d="M152 194C168 173 191 166 210 170C200 179 190 194 187 209C186 220 189 235 198 250C177 247 160 234 152 194Z" fill="#F7D463" opacity="0.8"/>
+    </g>
+  </g>
+
+  <g transform="translate(330 55)">
+    <text x="0" y="120" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="142" fill="#C9132B" letter-spacing="-3">MBU</text>
+    <text x="5" y="190" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="38" fill="#C9132B" letter-spacing="5">MOHAN BABU</text>
+    <text x="5" y="235" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="34" fill="#C9132B" letter-spacing="6">UNIVERSITY</text>
+  </g>
+</svg>
