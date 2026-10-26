@@ -85,7 +85,7 @@ export const modules = [
 
 export const getModule = (id) => modules.find((module) => module.id === String(id)) || modules[0]
 
-export const modulePdfUrl = (id) => `/assets/modules/module-${getModule(id).id}.pdf`
+export const modulePdfUrl = (id) => `${import.meta.env.BASE_URL}assets/modules/module-${getModule(id).id}.pdf`
 
 export const moduleLabel = (id) => `Module 0${getModule(id).id}`
 

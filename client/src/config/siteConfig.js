@@ -1,10 +1,11 @@
 // Single place to edit logo, resume, student details and links.
+const base = import.meta.env.BASE_URL
 export const siteConfig = {
   title: 'Digital Library',
-  logoPath: '/assets/mbu-logo.svg',
-  resumePath: '/assets/resume.pdf',
-  avatarPath: '/assets/student-photo.png',
-  homeAvatarPath: '/assets/home-student-photo.png',
+  logoPath: `${base}assets/mbu-logo.svg`,
+  resumePath: `${base}assets/resume.pdf`,
+  avatarPath: `${base}assets/student-photo.png`,
+  homeAvatarPath: `${base}assets/home-student-photo.png`,
   student: {
     name: 'M Abhilash', roll: '24102A030161', section: '3',
     department: 'Data Science', subject: 'Data Science', faculty: 'S Bose Babu',
